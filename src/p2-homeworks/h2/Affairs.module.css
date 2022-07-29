@@ -1,0 +1,41 @@
+.someClass {
+
+}
+
+.home {
+    margin-top: 150px;
+    background-color: chartreuse;
+    color: crimson;
+    font-size: 20px;
+    font-family: "Franklin Gothic Book";
+}
+
+.button_a {
+    width: 40px;
+    color: black;
+    background-color: cyan;
+}
+
+.button_h {
+    width: 40px;
+    color: black;
+    background-color: crimson;
+}
+
+.button_m {
+    width: 40px;
+    color: black;
+    background-color: blue;
+}
+
+.button_l {
+    width: 40px;
+    color: black;
+    background-color: darksalmon;
+}
+
+.button_x {
+    width: 40px;
+    color: black;
+    background-color: darksalmon;
+}

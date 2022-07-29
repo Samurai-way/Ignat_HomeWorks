@@ -1,0 +1,21 @@
+
+.img {
+    width: 80px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px
+}
+.mini_wrapper{
+    height: 70px;
+    width: 200px;
+    background-color: darkkhaki;
+    margin: -85px 90px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px;
+}
+.time{
+    margin: 5px 150px;
+    color: aqua;
+}
+.name {
+    color: greenyellow;
+}
