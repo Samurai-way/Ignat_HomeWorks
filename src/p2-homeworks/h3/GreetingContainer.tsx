@@ -1,8 +1,8 @@
-import React, {useState} from 'react'
+import React, {ChangeEvent, useState} from 'react'
 import Greeting from './Greeting'
 
 type GreetingContainerPropsType = {
-    users: any // need to fix any
+    users: string // need to fix any
     addUserCallback: any // need to fix any
 }
 
@@ -15,11 +15,23 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
     const [name, setName] = useState<any>('') // need to fix any
     const [error, setError] = useState<any>('') // need to fix any
 
-    const setNameCallback = (e: any) => { // need to fix any
-        setName('') // need to fix
+    const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => {
+        const name = e.currentTarget.value.trim()
+        if(name) {
+            setName(name)
+            setError('')
+        } else  {
+            setName('')
+            setError('Press Enter')
+
+        }
+        // need to fix any
+        // need to fix
     }
     const addUser = () => {
-        alert(`Hello  !`) // need to fix
+        alert(name +` Hello!`)
+        setName('')// need to fix
+
     }
 
     const totalUsers = 0 // need to fix
