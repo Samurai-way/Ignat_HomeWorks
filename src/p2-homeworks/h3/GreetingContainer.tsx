@@ -3,7 +3,7 @@ import Greeting from './Greeting'
 
 type GreetingContainerPropsType = {
     users: string // need to fix any
-    addUserCallback: any // need to fix any
+    addUserCallback: ()=>void // need to fix any
 }
 
 // более простой и понятный для новичков
@@ -22,19 +22,25 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
             setError('')
         } else  {
             setName('')
-            setError('Press Enter')
+            setError('add only strings')
 
         }
         // need to fix any
         // need to fix
     }
     const addUser = () => {
-        alert(name +` Hello!`)
+        alert(`Hello! `+ name)
         setName('')// need to fix
-
+        setTotalUsers(totalUsers+1)
     }
 
-    const totalUsers = 0 // need to fix
+    const zUser =()=>{
+        setTotalUsers(0)
+    }
+
+    const [totalUsers, setTotalUsers] =useState(0)
+
+     // need to fix
 
     return (
         <Greeting
@@ -43,6 +49,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
             addUser={addUser}
             error={error}
             totalUsers={totalUsers}
+            zUser={zUser}
         />
     )
 }
