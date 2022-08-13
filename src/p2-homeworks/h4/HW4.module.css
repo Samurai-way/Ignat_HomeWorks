@@ -11,3 +11,8 @@
 .testSpanError {
     color: blue;
 }
+.wrapper {
+    background-color: lightseagreen;
+    width: 800px;
+    height: 240px;
+}

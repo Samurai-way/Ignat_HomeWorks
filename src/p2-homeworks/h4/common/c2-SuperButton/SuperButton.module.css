@@ -1,25 +1,23 @@
 .default {
-
+    margin-top: 5px;
+    border-radius: 2px;
 }
 
+.default:active {
+    background-color: saddlebrown;
+}
 
 .red {
     background: red;
+    margin-top: 5px;
 }
-
-
 
 
 .red:hover {
     background-color: hotpink;
     animation: bounce 1s;
-
-
-
-
-
-
 }
+
 @keyframes bounce {
     0%, 20%, 60%, 100% {
         transform: translateY(0);
