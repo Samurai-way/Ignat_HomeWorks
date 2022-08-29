@@ -20,6 +20,11 @@ function HW6() {
 
     }
 
+    const clear =()=> {
+        localStorage.clear()
+        setValue('')
+    }
+
     return (
         <div className={w.wrapper}>
             <hr/>
@@ -39,8 +44,7 @@ function HW6() {
             </div>
             <SuperButton className={w.save} onClick={save}>save</SuperButton>
             <SuperButton className={w.restore} onClick={restore}>restore</SuperButton>
-
-
+            <SuperButton className={w.clear} onClick={clear}>clear</SuperButton>
         </div>
     )
 }
