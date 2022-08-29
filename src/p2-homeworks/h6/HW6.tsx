@@ -26,13 +26,14 @@ function HW6() {
             <div  className={w.superEditableSpan}>
                 <img className={w.ing} src={cat}/>
                 <SuperEditableSpan
+                    className={w.superSpan}
                     value={value}
                     onChangeText={setValue}
                     spanProps={{children: value ? undefined : 'enter text...'}}
                 />
             </div>
-            <SuperButton onClick={save}>save</SuperButton>
-            <SuperButton onClick={restore}>restore</SuperButton>
+            <SuperButton className={w.save} onClick={save}>save</SuperButton>
+            <SuperButton className={w.restore} onClick={restore}>restore</SuperButton>
 
 
         </div>

@@ -2,6 +2,7 @@
     background-color: greenyellow;
     width: 300px;
     margin-left: 50px;
+
 }
 .hr{
     border: 2px solid blue;
@@ -13,10 +14,28 @@
     margin-bottom: 10px;
     margin-left: 25px;
 
+
 }
 .ing{
     margin-left: -20px;
     margin-bottom: -10px;
     width: 30px;
     height: 30px;
+
 }
+.superSpan{
+    color: green;
+}
+.save{
+    background-color: lightseagreen;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 50px;
+}
+.restore{
+    background-color: orange;
+    border-radius: 5px;
+    width: 60px;
+}
+
