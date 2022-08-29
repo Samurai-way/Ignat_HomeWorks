@@ -1,0 +1,23 @@
+
+.navlink {
+    width: 250px;
+    height: 50px;
+    margin-left: -190px;
+    margin-top: 10px;
+
+}
+
+.navlink:hover {
+    width: 250px;
+    height: 50px;
+    transform: translateX(85%);
+    transition: 0.5s;
+}
+
+.nav {
+    text-decoration: none;
+}
+.hw1{
+    margin-left: 50px;
+}
+

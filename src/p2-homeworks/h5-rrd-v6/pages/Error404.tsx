@@ -1,4 +1,5 @@
 import React from 'react'
+import e from './Pages.module.css'
 
 function Error404() {
     return (

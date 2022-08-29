@@ -1,12 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import App from './p1-main/m1-ui/u1-app/App'
 import * as serviceWorker from './serviceWorker'
+import Pages from "./p2-homeworks/h5-rrd-v6/Pages";
+import PreJunior from "./p2-homeworks/h5-rrd-v6/pages/PreJunior";
+import {BrowserRouter} from "react-router-dom";
 
 ReactDOM.render(
     <React.StrictMode>
-        <App/>
+        <BrowserRouter>
+        <Pages/>
+        </BrowserRouter>
     </React.StrictMode>,
     document.getElementById("root")
 )

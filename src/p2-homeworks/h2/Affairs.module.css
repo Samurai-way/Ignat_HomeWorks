@@ -3,11 +3,14 @@
 }
 
 .home {
+    width: 300px;
     margin-top: 150px;
     background-color: chartreuse;
     color: crimson;
     font-size: 20px;
     font-family: "Franklin Gothic Book";
+    margin-left: 50px;
+    margin-top: 130px;
 }
 
 .button_a {
