@@ -1,0 +1,22 @@
+.wrapper{
+    background-color: greenyellow;
+    width: 300px;
+    margin-left: 50px;
+}
+.hr{
+    border: 2px solid blue;
+}
+.superEditableSpan{
+    color: darkred;
+    font-family: cursive;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+
+}
+.ing{
+    margin-left: -20px;
+    margin-bottom: -10px;
+    width: 30px;
+    height: 30px;
+}
