@@ -4,3 +4,17 @@
     background-color: lightseagreen;
     margin-left: 20px;
 }
+.select{
+    background-color: orange;
+    width: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+.label{
+    margin-left: 25px;
+    background-color: lime;
+    border-radius: 5px;
+    color: darkmagenta;
+    font-size: 20px;
+}
