@@ -4,3 +4,29 @@
     background-color: lightseagreen;
     margin: 0 auto;
 }
+.map{
+    width: 290px;
+    height: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin: 3px;
+}
+.age{
+    width: 20px;
+    height: 20px;
+}
+.buttons{
+    display: flex;
+    margin: 10px;
+}
+.up{
+    margin-left:20px;;
+}
+.down{
+    margin-left:20px;;
+}
+.check{
+    margin-left:20px;;
+}

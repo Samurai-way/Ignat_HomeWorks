@@ -18,7 +18,7 @@ test('sort name up', () => {
     const newState = homeWorkReducer(initialState, {type: 'sort', payload: 'up'})
 
     console.log(newState)
-    // expect(...).toBe(...)
+    expect(newState).toBe(initialState)
 })
 test('sort name down', () => {
     const newState = homeWorkReducer(initialState, {type: 'sort', payload: 'down'})
