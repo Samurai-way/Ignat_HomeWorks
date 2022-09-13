@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import {homeWorkReducer} from './bll/homeWorkReducer'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
+import h from './HW8.module.css';
 
 // export type UserType =
 
@@ -26,7 +27,7 @@ function HW8() {
     const sortUp = () => setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'up'}))
 
     return (
-        <div>
+        <div className={h.wrapper}>
             <hr/>
             homeworks 8
 
