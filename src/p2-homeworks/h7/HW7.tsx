@@ -10,8 +10,9 @@ function HW7() {
 
     return (
         <div className={hw.wrapper}>
-            <hr/>
-            homeworks 7
+            <div className={hw.text}>
+                Homeworks 7
+            </div>
             {/*should work (должно работать)*/}
             <div>
                 <SuperSelect
@@ -28,10 +29,6 @@ function HW7() {
                     onChangeOption={onChangeOption}
                 />
             </div>
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperSelect/>*/}
-            {/*<AlternativeSuperRadio/>*/}
             <hr/>
         </div>
     )
