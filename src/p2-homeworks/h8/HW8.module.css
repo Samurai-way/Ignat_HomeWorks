@@ -1,10 +1,18 @@
 .wrapper{
     width: 300px;
-    height: 300px;
-    background-color: lightseagreen;
+    height: 240px;
+    background-color: darkslategray;
     margin: 0 auto;
+    border-radius: 15px;
+}
+.hw{
+    margin-left: 100px;
+    color: white;
+    font-family: cursive;
 }
 .map{
+    color: brown;
+    font-family: cursive;
     width: 290px;
     height: 20px;
     border: 2px solid black;
@@ -12,6 +20,7 @@
     justify-content: space-between;
     border-radius: 5px;
     margin: 3px;
+    background-color: darkgrey;
 }
 .age{
     width: 20px;
@@ -22,11 +31,26 @@
     margin: 10px;
 }
 .up{
-    margin-left:20px;;
+    margin-left:10px;;
 }
 .down{
-    margin-left:20px;;
+    margin-left:10px;;
+}
+.cat{
+    margin-left:10px;
 }
 .check{
-    margin-left:20px;;
+    margin-left:10px;
+}
+.button_up{
+    background-color: brown;
+    border-radius: 5px;
+}
+.button_down{
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+.check_18{
+    background-color: lightseagreen;
+    border-radius: 5px;
 }

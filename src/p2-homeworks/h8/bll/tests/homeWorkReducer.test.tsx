@@ -27,8 +27,8 @@ test.skip('sort name down', () => {
     expect(newState[5].name).toBe('Кот')
     expect(newState[0].name).not.toBe('Кот')
 })
-// test('check age 18', () => {
-//     const newState = homeWorkReducer(initialState, {type: 'check', payload: 18})
-//
-//
-// })
+test('check age 18', () => {
+    const newState = homeWorkReducer(initialState, {type: 'sort', payload: "Кот"})
+
+    expect(newState[0].name).toBe('Кот')
+})
