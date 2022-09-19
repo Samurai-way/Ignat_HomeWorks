@@ -31,22 +31,16 @@ function Clock() {
         <div>
             <div
                 onMouseEnter={onMouseEnter}
-                onMouseLeave={onMouseLeave}
-            >
+                onMouseLeave={onMouseLeave}>
                 {stringTime}
             </div>
-
             {show && (
-                <div>
-                    {stringDate}
-                </div>
-            )}
+
+                <div>{stringDate}</div>)}
 
             <SuperButton onClick={start}>start</SuperButton>
             <SuperButton onClick={stop}>stop</SuperButton>
-
-        </div>
-    )
+        </div>)
 }
 
 export default Clock
