@@ -1,10 +1,50 @@
 .wrapper {
     width: 200px;
     height: 100px;
-    background-color: #adeded;
+    background-color: rgba(162, 149, 134, 0.56);
     margin: 30px auto;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 5px solid steelblue;
+}
+.button_start{
+    width: 50px;
+    height: 20px;
+    margin-right: 10px;
+    background-color: steelblue;
+    border-radius: 5px;
+}
+.button_stop{
+    width: 50px;
+    height: 20px;
+    margin-left: 50px;
+    background-color: #ef6767;
+    border-radius: 5px;
+}
+.wrapper_clock{
+    /*border: 2px solid;*/
+    width: 80%;
+    height: 80%;
+    color: #121111;
+    font-size: 30px;
+    font-family: "Chalkduster, fantasy", Times, serif;
+}
+
+.date{
+    width: 85px;
+    height: 0px;
+    margin: 0 auto;
+    /*border: 2px solid;*/
+    color: rgb(134, 3, 3);
+    font-size: 20px;
+    font-variant-numeric: slashed-zero;
+    /*border-radius: 15px;*/
+}
+.buttons_wrapper{
+    margin-top: 20px;
+    /*border: 2px solid;*/
+    width: 100%;
+    display: flow;
 }
