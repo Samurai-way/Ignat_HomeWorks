@@ -2,8 +2,7 @@ import {combineReducers, legacy_createStore} from 'redux'
 import {loadingReducer} from './loadingReducer'
 
 const reducers = combineReducers({
-    loading: loadingReducer,
-
+    isloading: loadingReducer
 })
 
 const store = legacy_createStore(reducers)

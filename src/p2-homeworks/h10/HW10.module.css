@@ -1,0 +1,31 @@
+.wrapper {
+    width: 400px;
+    height: 100px;
+    background-color: rgba(246, 243, 243, 0.56);
+    margin: 0px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #032e51;
+    font-family: Georgia, serif;
+}
+
+.img{
+    width: 200px;
+    height: 100px;
+    font-size: 50px;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #fd0505;
+    color: #f0f4f4;
+    margin-left: 40px;
+    font-family: Georgia, serif;
+}
+.span{
+    margin-right: 20px;
+    font-size: 15px;
+}
