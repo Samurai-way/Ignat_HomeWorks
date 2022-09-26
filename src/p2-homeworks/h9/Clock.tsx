@@ -14,7 +14,7 @@ function Clock() {
     const start = () => {
         stop()
         const id: number = window.setInterval(() => {
-            setDate(new Date())// setDate
+            setDate(new Date())     // setDate
         }, 1000)
         setTimerId(id)
     }
@@ -28,7 +28,7 @@ function Clock() {
         setShow(false)
     }
 
-    const stringTime = date.toLocaleTimeString() // fix with date
+    const stringTime = date.toLocaleTimeString()   // fix with date
     const stringDate = date.toLocaleDateString()   // fix with date
 
     return (

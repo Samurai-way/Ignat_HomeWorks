@@ -3,13 +3,16 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import * as serviceWorker from './serviceWorker'
 import Pages from "./p2-homeworks/h5-rrd-v6/Pages";
-import PreJunior from "./p2-homeworks/h5-rrd-v6/pages/PreJunior";
 import {BrowserRouter} from "react-router-dom";
+import {Provider} from 'react-redux';
+import store from "./p2-homeworks/h10/bll/store";
 
 ReactDOM.render(
     <React.StrictMode>
         <BrowserRouter>
-        <Pages/>
+            <Provider store={store}>
+                <Pages/>
+            </Provider>
         </BrowserRouter>
     </React.StrictMode>,
     document.getElementById("root")
