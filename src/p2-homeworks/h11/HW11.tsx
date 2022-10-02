@@ -1,44 +1,44 @@
 import React, {ChangeEvent, useState} from 'react'
 import SuperRange from './common/c7-SuperRange/SuperRange'
 import SuperDoubleRange from './common/c8-SuperDoubleRange/SuperDoubleRange'
+import style from './HomeWork.module.css'
 
 function HW11() {
     const [value1, setValue1] = useState(0)
     const [value2, setValue2] = useState(100)
+    const [value3, setValue3] = React.useState<number[]>([value1, value2]);
 
 
-    const setValue1CallBack = (e: ChangeEvent<HTMLInputElement>) => {
-        setValue1(+e.currentTarget.value)
-    }
 
     return (
-        <div>
-            <hr/>
-            homeworks 11
-
-            {/*should work (должно работать)*/}
-            <div>
-                <span>{value1}</span>
+        <div className={style.wrapper}>
+            <div className={style.container}>
+            <h3 className={style.h3}>
+                homeworks 11
+            </h3>
+            <div className={style.first_range}>
+                <span className={style.span}>{value1 < value2 ? value1 : value2 -1}</span>
                 <SuperRange
-                    value={value1}
-                    onChange={setValue1CallBack}
-                    // сделать так чтоб value1 изменялось
+                    value1={value1}
+                    value2={value2}
+                    setValue3={setValue3}
+                    onChangeRange={setValue1}
                 />
             </div>
-
-            <div>
-                <span>{value1}</span>
+            <div className={style.second_range}>
+                <span className={style.second_span}>{value1}</span>
                 <SuperDoubleRange
+                    value1={value1}
+                    value2={value2}
+                    value3={value3}
+                    setValue1={setValue1}
+                    setValue2={setValue2}
+                    setValue3={setValue3}
                     // сделать так чтоб value1 и value2 изменялось
                 />
-                <span>{value2}</span>
+                <span className={style.third_span}>{value2}</span>
             </div>
-
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperRange/>*/}
-            {/*<AlternativeSuperDoubleRange/>*/}
-            <hr/>
+            </div>
         </div>
     )
 }
