@@ -1,23 +1,35 @@
 .dark {
-    background: dimgrey;
+    background: #121111;
+    height: 70px;
 }
 
 .dark-text {
     color: aliceblue;
+    height: 70px;
 }
 
 .red {
-    background: lightcoral;
+    background: #f10303;
+    height: 70px;
 }
 
 .red-text {
     color: aqua;
+    height: 70px;
 }
 
 .some {
-    background: lightgreen;
+    background: #ceab2f;
+    height: 70px;
 }
 
 .some-text {
     color: darkslateblue;
+    height: 70px;
+}
+.h2{
+    margin-left: 550px;
+}
+.radio{
+    margin-left: 485px;
 }

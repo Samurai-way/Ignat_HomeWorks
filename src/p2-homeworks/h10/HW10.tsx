@@ -2,7 +2,7 @@ import React from 'react'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import {useDispatch, useSelector} from "react-redux";
 import {isloadingAC} from "./bll/loadingReducer";
-import {AppStoreType} from "./bll/store";
+import {AppStoreType} from "../../redux/store";
 import load3 from '../../common/loader/Loading_3.gif'
 import style from './HW10.module.css';
 
@@ -20,7 +20,7 @@ function HW10() {
         }, 5000)
         // dispatch
         // setTimeout
-        console.log('loading...')
+        // console.log('loading...')
     };
 
     return (

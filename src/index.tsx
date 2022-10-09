@@ -5,7 +5,7 @@ import * as serviceWorker from './serviceWorker'
 import Pages from "./p2-homeworks/h5-rrd-v6/Pages";
 import {BrowserRouter} from "react-router-dom";
 import {Provider} from 'react-redux';
-import store from "./p2-homeworks/h10/bll/store";
+import store from "./redux/store";
 
 ReactDOM.render(
     <React.StrictMode>

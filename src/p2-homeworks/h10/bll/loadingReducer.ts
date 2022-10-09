@@ -14,7 +14,7 @@ export type otherTypes = isloading
 
 
 export const loadingReducer = (state = initState, action: otherTypes): initStateType => { // fix any
-    console.log(state)
+    // console.log(state)
     switch (action.type) {
         case 'IS-LOADING': {
             return {
