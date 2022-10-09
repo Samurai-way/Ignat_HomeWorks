@@ -11,9 +11,11 @@ function HW12() {
 
     const [value, onChangeOption] = useState(themes[1])
 
+
     const dark = useSelector<AppStoreType, string>(state => state.theme.dark)
     const red = useSelector<AppStoreType, string>(state => state.theme.red)
     const some = useSelector<AppStoreType, string>(state => state.theme.some)
+
 
     let theme = dark || some || red
 
@@ -47,7 +49,7 @@ function HW12() {
                     />
                 </div>
             </div>
-            <input type={'checkbox'}/>
+            <h2 className={s.h_wrapper}>Its: {theme} theme</h2>
         </div>
 
     );

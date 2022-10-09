@@ -2,6 +2,7 @@ type changeDarkTheme = ReturnType<typeof changeDarkThemeAC>
 type changeRedTheme = ReturnType<typeof changeRedThemeAC>
 type changeSomeTheme = ReturnType<typeof changeSomeThemeAC>
 
+
 type changeDarkThemeAC = {
     type: 'DARK-THEME',
     dark: string
@@ -18,13 +19,13 @@ type changeSomeThemeAC = {
 const initState = {
     dark: '',
     red: '',
-    some: ''
+    some: '',
 };
 
 type initStateType = {
     dark: string,
     red: string,
-    some: string
+    some: string,
 }
 
 type otherTypes = changeDarkTheme | changeRedTheme | changeSomeTheme
@@ -71,3 +72,4 @@ export const changeSomeThemeAC = (some: string): changeSomeThemeAC => {
         some
     } as const
 };
+

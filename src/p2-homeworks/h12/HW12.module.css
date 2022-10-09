@@ -3,6 +3,10 @@
     height: 70px;
 }
 
+.reset{
+    background: #722929;
+}
+
 .dark-text {
     color: aliceblue;
     height: 70px;
@@ -32,4 +36,21 @@
 }
 .radio{
     margin-left: 485px;
+}
+.input_wrapper{
+    border: 2px solid steelblue;
+    width: 40px;
+    margin-left: 600px;
+    border-radius: 5px;
+}
+.input{
+    height: 50px;
+    width: 30px;
+}
+.h_wrapper{
+    width: 180px;
+    margin-left: 530px;
+    color: rgba(2, 25, 42, 0.68);
+    border: 2px solid black;
+    border-radius: 5px;
 }
