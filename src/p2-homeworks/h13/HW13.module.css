@@ -1,0 +1,22 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.button{
+    width: 70px;
+    border-radius: 5px;
+    background-color: rgb(70, 236, 236);
+    height: 30px;
+}
+.input{
+    width: 35px;
+    height: 30px;
+}
+.title{
+    margin-left: 530px;
+}
+.check{
+    margin-left: 550px;
+}
