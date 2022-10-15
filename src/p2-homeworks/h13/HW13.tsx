@@ -14,6 +14,10 @@ export const Request = () => {
             .then((res) => {
                 setGet(res.data.errorText)
             })
+            .catch((error) => {
+                console.log({...error})
+                console.log(error.response ? error.response.data.errorText : error.message);
+            })
     }
     return (
         <div>
